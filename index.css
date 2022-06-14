@@ -1,0 +1,82 @@
+body {
+    background-color:  #000;
+}
+.container {
+    width: 90%;
+    margin: 50px auto;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+}
+aside {
+    width: calc(95% / 4);
+    background-color: #1E1E1F;/**/
+    border-radius: 30px;    
+}
+.body-icon-person {
+    display: block;
+    background-color:#343434 ;
+    border-radius: 50px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+[alt="person"] { width: 120px; }
+
+aside h2 { 
+    text-align: center; 
+    font-size: 2vw; 
+    text-transform: capitalize;}
+
+hr {width: 80%; margin: auto; }
+
+a{ color: #fff; text-decoration: none;}
+
+.card { margin: 15px;}
+
+.card a img {
+    float: left; 
+    margin-right: 5px; 
+    margin-bottom: 10px; 
+    width: 45px;
+}
+
+.card a h4, .card a span {display: block; text-align: left;}
+
+.card a span { font-size: 0.7vw;}
+.card a h4 {margin-bottom: 7px; color: #ffd700 ;}
+
+.card a h4:hover, .card a span:hover {
+    color: yellowgreen;
+}
+
+.content {
+    width: calc(95% * 3/4);
+    background-color: #343434;
+    border-radius: 30px;
+}
+.space-padding {
+    margin: 40px;
+}
+
+.space-padding h2 {
+    color: #FFD700;
+    font-size: 2vw;
+}
+
+.space-padding p {
+    font-size: 1.2vw;
+}
+
+table, tr, th, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px 10px;
+    font-size: 1vw;
+}
+th {
+    color: #aaa;
+}
